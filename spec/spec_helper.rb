@@ -11,7 +11,4 @@ Suspenders::AppGenerator.source_paths << Rails::Generators::AppGenerator.source_
 
 Bundler.require(:default, :development)
 
-
-RSpec.configure do |config|
-  # some (optional) config here
-end
+Dir['./spec/support/**/*.rb'].each { |file| require file }
