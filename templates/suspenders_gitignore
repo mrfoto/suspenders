@@ -3,6 +3,8 @@
 *.swo
 *.swp
 .bundle
+.env
+.foreman
 .sass-cache/
 coverage/*
 db/*.sqlite3
